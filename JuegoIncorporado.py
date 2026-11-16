@@ -181,10 +181,10 @@ def jugar_concentrese():
         while True:
             continuar = input("¿Deseas jugar nuevamente? (s = sí / n = salir): ").strip().lower()
             if continuar in ["s", "si", "sí"]:
-                break  # Sale de este bucle y reinicia el while principal
+                break  
             elif continuar in ["n", "no", "salir"]:
                 print("\nVuelve cuando quieras. ¡Hasta la próxima!")
-                return  # Termina toda la función y cierra el programa
+                return  
             else:
                 print("Opción inválida. Escribe 's' para jugar otro tablero o 'n' para salir.")
 
