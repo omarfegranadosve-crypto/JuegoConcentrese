@@ -36,7 +36,6 @@ def seleccionar_nivel():
             time.sleep(1.5)
 
 def gen_tableros(cant_filas, cant_columnas):
-    """Genera las matrices del tablero mezcladas y ocultas."""
     if not isinstance(cant_filas, int) or not isinstance(cant_columnas, int):
         raise TypeError("Las filas y columnas solo pueden ser números enteros.")
     if cant_filas <= 0 or cant_columnas <= 0:
