@@ -188,5 +188,5 @@ def jugar_concentrese():
                 print("Opción inválida. Escribe 's' para jugar otro tablero o 'n' para salir.")
 
 
-if __name__ == "__main__":
-    jugar_concentrese()
+#if __name__ == "__main__":
+jugar_concentrese()
